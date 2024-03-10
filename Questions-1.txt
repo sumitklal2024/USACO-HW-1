@@ -1,0 +1,25 @@
+In mathematics, a prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. 
+In simpler terms, a prime number is a number that cannot be formed by multiplying two smaller natural numbers.
+To determine if a given number is prime, we need to check if it is divisible by any number other than 1 and itself.
+Here is a template code in Java to implement the algorithm:
+
+public class PrimeChecker {
+
+    // Function to check if a number is prime
+    public static boolean isPrime(int number) {
+        // XXX Check boundary Condition
+		
+		//XXX Check if the given number is prime (No brute force algorithm)
+        return true;
+    }
+
+    public static void main(String[] args) {
+        // To Test the functionality
+        int num = 17;
+        if (isPrime(num)) {
+            System.out.println(num + " is a prime number.");
+        } else {
+            System.out.println(num + " is not a prime number.");
+        }
+    }
+}

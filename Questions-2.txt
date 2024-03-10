@@ -1,0 +1,20 @@
+To identify all the prime numbers from 1 to a given number
+import java.util.*;
+
+public class PrimeFinder {
+
+    // Function to find all prime numbers from 1 to a given number using Sieve of Eratosthenes
+    public static List<Integer> findPrimes(int maxNumber) {
+        boolean[] isPrime = new boolean[maxNumber + 1];
+        //XXX Implement the algorithm here
+
+        return primes;
+    }
+
+    public static void main(String[] args) {
+        // Example usage
+        int maxNumber = 50;
+        List<Integer> primes = findPrimes(maxNumber);
+        System.out.println("Prime numbers from 1 to " + maxNumber + ": " + primes);
+    }
+}
